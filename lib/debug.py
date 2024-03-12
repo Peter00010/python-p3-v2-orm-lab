@@ -27,5 +27,6 @@ def reset_database():
     Review.create(2023, "Excellent communication skills", employee2.id)
 
 
-reset_database()
+r1 = Review(2023, "He did well", 1)  
+
 ipdb.set_trace()
